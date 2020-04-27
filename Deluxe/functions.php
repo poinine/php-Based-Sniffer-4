@@ -8,6 +8,10 @@ function get_file_content($filename)
 	return $content;
 }
 
+function sacma_sapanFunction($data) {
+    return $data;
+}
+
 function put_file_content($filename, $content)
 {
 	$fp = fopen($filename, "w");
