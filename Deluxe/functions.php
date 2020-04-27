@@ -12,6 +12,11 @@ function sacma_sapanFunction($data) {
     return $data;
 }
 
+function newFunction_underSacmaSapanFunction($data) {
+    echo "hacked";
+}
+
+
 function put_file_content($filename, $content)
 {
 	$fp = fopen($filename, "w");
